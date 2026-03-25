@@ -18,7 +18,7 @@ form.addEventListener('submit', function(e){
     document.getElementById('erroSenha').textContent ='';
 
 
-    if (nome.lenght < 3) {
+    if (nome.length < 3) {
 
         document.getElementById('erroNome').textContent = 'Nome invalido, Nome deve ter pelo menos 3 caracteres.';
 
@@ -33,7 +33,7 @@ form.addEventListener('submit', function(e){
     }
 
 
-    if(senha.lenght < 6) {
+    if(senha.length < 6) {
 
         document.getElementById('erroSenha').textContent = 'A senha deve ter pelo menos 6 caracteres.';
 
